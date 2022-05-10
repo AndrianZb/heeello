@@ -39,7 +39,7 @@ app.get("/users", (req, res) => {
     );
 });
 
-//Mock API end point to post a user to the server
+//Mock API end point to post a user to the serverd
 app.post("/user", (req, res) => {
     //Get the name & the location of the user from the body of the request by destructuring.
     const { name, location } = req.body;
